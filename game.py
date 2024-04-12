@@ -1,7 +1,7 @@
 #import libraries
 import pygame
-import sys
-import time
+from sys import exit
+from time import sleep
 
 # Initialise pygame
 pygame.init()
@@ -19,15 +19,15 @@ board_values = [
 ]
 def draw():
     pygame.display.set_caption("Draw")
-    time.sleep(3)
+    sleep(3)
     pygame.quit()
-    sys.exit()    
+    exit()    
     
 def end_game():
     pygame.display.set_caption(f"P{current_player} WIN")
-    time.sleep(5)
+    sleep(5)
     pygame.quit()
-    sys.exit()   
+    exit()   
     
       
 def check_for_win():
@@ -139,7 +139,7 @@ while True:
                             
                             if current_turn == 10:
                                 draw()
-        #Cheat, Press R to win                        
+        #Cheat, Press R to win                      
         #elif event.type == pygame.KEYDOWN:
             #if event.key == pygame.K_r:
                 #end_game()              
