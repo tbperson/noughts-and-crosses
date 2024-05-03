@@ -40,7 +40,5 @@ This Python script implements a simple Tic-Tac-Toe game using the Pygame library
 
 - You can modify the `window_width`, `window_height`, and `button_size` constants to adjust the size of the game window and buttons according to your preference.
 
-## Credits
 
-This script is created by [Your Name].
 
