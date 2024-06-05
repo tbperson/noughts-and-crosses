@@ -140,9 +140,9 @@ while True:
                             if current_turn == 10:
                                 draw()
         #Cheat, Press R to win                      
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_r:
-                end_game()              
+        #elif event.type == pygame.KEYDOWN:
+            #if event.key == pygame.K_r:
+                #end_game()              
 
     for row in buttons:
         for button in row:
